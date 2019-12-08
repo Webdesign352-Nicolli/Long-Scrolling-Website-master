@@ -1,0 +1,305 @@
+@media (max-width: 10000px) {
+}
+
+.screenwidth {
+  width: 10000px;
+  height: 100%;
+  background-color: black;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 8%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.fadein{
+  animation: fadeIn forwards 3s;
+  -webkit-animation: fadeIn forwards 3s;
+  -moz-animation: fadeIn forwards 3s;
+  -o-animation: fadeIn forwards 3s;
+  -ms-animation: fadeIn forwards 3s;
+  animation-play-state: running;
+}
+
+.fadeOut {
+  animation: fadeOut forwards 3s;
+  -webkit-animation: fadeOut forwards 3s;
+  -moz-animation: fadeOut forwards 3s;
+  -o-animation: fadeOut forwards 3s;
+  -ms-animation: fadeOut forwards 3s;
+  animation-play-state: running;
+}
+
+#title {
+  margin-left: 250px;
+  margin-top: 100px;
+  -webkit-animation: fadeIn forwards 5s;
+  -moz-animation: fadeIn forwards 5s;
+  -o-animation: fadeIn forwards 5s;
+  -ms-animation: fadeIn forwards 5s;
+}
+
+#quote {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  display: inline;
+  overflow: hidden;
+  position: absolute;
+  margin-left: 400px;
+  opacity: 0;
+  height: auto;
+}
+
+#protagonist {
+  margin-left: 1600px;
+  opacity: 0;
+}
+
+#mirror {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  display: inline;
+  overflow: hidden;
+  margin-left: 1100px;
+  height: auto;
+    opacity:0;
+}
+
+#intro {
+  position: relative;
+  padding: 5px;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 20px;
+  margin-left: 1100px;
+  color: white;
+  margin-right: -1100px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: black;
+  outline: 2px solid #ffe1ad;
+    opacity:0;
+}
+
+#fleta {
+  margin-left: 700px;
+  opacity:0;
+}
+
+#fgoodend {
+  margin-left: 1800px;
+    opacity:0;
+}
+
+#fletastory {
+  position: relative;
+  padding: 10px;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 20px;
+  margin-left: 1800px;
+  color: white;
+  margin-right: -1800px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: black;
+  outline: 2px solid #ffe1ad;
+    opacity:0;
+}
+
+
+#hgoodend {
+  margin-left: 1500px;
+  opacity:0;
+}
+
+#harpae {
+  margin-left: 350px;
+  opacity:0;
+}
+
+#harpaestory {
+  position: relative;
+  padding: 10px;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 20px;
+  margin-left: 1500px;
+  color: white;
+  margin-right: -1500px;
+  margin-top: -35px;
+  text-align: center;
+  background-color: black;
+  outline: 2px solid #ffe1ad;
+  opacity:0;
+}
+
+
+#lisette {
+  margin-left: 50px;
+  opacity:0;
+}
+
+#lgoodend {
+  margin-left: 1200px;
+  opacity:0;
+}
+
+#lisettestory {
+  position: relative;
+  padding: 10px;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 20px;
+  margin-left: 1150px;
+  color: white;
+  margin-right: -1100px;
+  margin-top: -55px;
+  text-align: center;
+  background-color: black;
+  outline: 2px solid #ffe1ad;
+  opacity:0;
+}
+
+#enjel {
+  margin-left: 500px;
+  opacity:0;
+}
+
+#enjelstory {
+  position: relative;
+  padding: 10px;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 20px;
+  margin-left: 900px;
+  color: white;
+  margin-right: -500px;
+  margin-top: -650px;
+  text-align: center;
+  background-color: black;
+  outline: 2px solid #ffe1ad;
+  opacity:0;
+}
+
+#medical {
+    margin-left: 950px;
+    opacity:0;
+}
+
+#medic {
+  position: relative;
+  padding: 10px;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 20px;
+  margin-left: 900px;
+  color: white;
+  margin-right: -1100px;
+  margin-top: -55px;
+  text-align: center;
+  background-color: black;
+  outline: 2px solid #ffe1ad;
+  opacity:0;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+/*TRANSITION FADE IN*/
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+/*TRANSTION FADE IN END*/
